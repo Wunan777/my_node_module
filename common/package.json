@@ -1,0 +1,11 @@
+{
+  "name": "shared_code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "./build/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@typegoose/typegoose": "^12.1.0",
+    "typescript": "5.2.2"
+  }
+}
