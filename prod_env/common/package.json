@@ -1,5 +1,5 @@
 {
-  "name": "shared_code",
+  "name": "@company-a/common",
   "version": "1.0.2",
   "main": "index.js",
   "types": "./build/index.d.ts",
@@ -10,6 +10,7 @@
     "./build"
   ],
   "dependencies": {
+    "@company-a/common": "1.0.0",
     "@typegoose/typegoose": "^12.1.0",
     "typescript": "5.2.2"
   }
