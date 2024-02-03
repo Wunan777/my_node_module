@@ -1,0 +1,11 @@
+{
+    "name": "app1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@company-a/common": "1.0.3",
+        "@typegoose/typegoose": "12.1.0",
+        "mongoose": "8.1.1"
+    }
+}

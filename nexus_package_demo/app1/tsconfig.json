@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./build", // 编译输出目录
+        "declaration": true, // TypeScript 会在编译时生成对应的声明文件
+        "skipLibCheck": true, // TypeScript 编译器将跳过对引入的声明文件（例如从 node_modules 中导入的库）的类型检查。
+        "experimentalDecorators": true, // 允许使用实验性的装饰器语法。
+        "lib": ["es2015", "es2016", "dom"], // 使用指定标准库进行编译
+        "target": "es2017", // 生成 ES(ECMAScript) - 2017版本的代码
+        "module": "commonjs", // 指定生成的 JavaScript 代码的模块系统类型
+        "composite": true, // 增量编译
+        "sourceMap": true, // 用于debug打断点时, 进行代码关联
+    },
+    "exclude": ["node_modules/**/*", "**/*.d.ts"],
+    "include": ["./index.ts", "src/**/*"]
+}
